@@ -16,40 +16,51 @@ description: There are so many ways to get involved in Crystal. Here's a list of
           icon="security"
 %}
 
+{% capture code_title %}{% t community.code.title %}{% endcapture %}
+{% capture code_content %}{% t community.code.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="Code Repository"
+          title=code_title
           divId="code"
-          content="The Crystal official code repository is on GitHub, so any bugs you find in either the language, compiler or standard library should be reported here - and pull requests are always welcome."
+          content=code_content
           link_text="crystal-lang/crystal"
           url="https://github.com/crystal-lang/crystal/"
           icon="github"
           custom_icon=true
 %}
 
+{% capture forum_title %}{% t community.forum.title %}{% endcapture %}
+{% capture forum_content %}{% t community.forum.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="Forum"
+          title=forum_title
           divId="discuss"
-          content="The Crystal Forum is the first to-go place for any general discussion. Feel free to ask a question, share your project with others, ask for guidance and best practices, offer your help contributing to a project, or anything else Crystal-related."
+          content=forum_content
           link_text="forum.crystal-lang.org"
           url="https://forum.crystal-lang.org"
           icon="forum"
 %}
 
+{% capture blog_title %}{% t community.blog.title %}{% endcapture %}
+{% capture blog_content %}{% t community.blog.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="New Releases, Use Cases and more"
+          title=blog_title
           divId="blog"
-          content="In the official Crystal blog you can find the detailed announcements for new releases, some interesting use cases, the rationale behind some of the language's design decisions and things the team write around the code they usually write.<br/><br/>
-          We also accept posts from guest writers, so if you have something awesome you have built with Crystal, <a href=\"mailto:crystal@manas.tech\" title=\"Or pick any other channel listed here\">contact us</a> and we'll be happy to have you featured on the blog."
+          content=blog_content
           link_text="Crystal Blog"
           url="/blog"
           icon="chat_bubble_outline"
           internal_link="true"
 %}
 
+{% capture chat_title %}{% t community.chat.title %}{% endcapture %}
+{% capture chat_content %}{% t community.chat.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="Chat Rooms"
+          title=chat_title
           divId="chat"
-          content="The Gitter room is the official chat room for Crystal. You can drop a quick question here to try and get it answered quickly, ask for guidance, or engage on a short discussion on a feature or project you are interested in. Make sure to keep the discussion organised, and consider using the mailing list if the chat drags for too long."
+          content=chat_content
           link_text="crystal-lang/crystal"
           url="https://gitter.im/crystal-lang/crystal"
           icon="gitter"
@@ -57,10 +68,12 @@ description: There are so many ways to get involved in Crystal. Here's a list of
           custom_icon=true
 %}
 
+{% capture libera_chat_content %}{% t community.libera_chat.content_html %}{% endcapture %}
+
 {% include community_row.html
           title=""
           divId="liberachat"
-          content="Our IRC channel at <a href=\"ircs://irc.libera.chat:6697#crystal-lang\">irc.libera.chat:6697#crystal-lang</a> is bridged to the Gitter room, so anything sent on one platform is forwarded to the other one. Logs are available at <a href=\"http://irclog.crystal-lang.org\">irclog.crystal-lang.org</a>."
+          content=libera_chat_content
           link_text="#crystal-lang"
           url="https://web.libera.chat/#crystal-lang"
           icon="libera_chat"
@@ -68,9 +81,11 @@ description: There are so many ways to get involved in Crystal. Here's a list of
           custom_icon=true
 %}
 
+{% capture discord_content %}{% t community.discord.content_html %}{% endcapture %}
+
 {% include community_row.html
           title=""
-          content="The Discord server, unlike the Gitter room and the IRC channel, is unofficial, but strives not to yield to the official alternatives. There are many channels to discuss any kinds of topics related to the language."
+          content=discord_content
           link_text="Crystal Programming"
           url="https://discord.gg/YS7YvQy"
           icon="discord"

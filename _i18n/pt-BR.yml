@@ -67,4 +67,34 @@ community:
       Keybase</a> (definir destinatário <code>crystal</code>), ou com a nossa <a href=\"crystal-pgp-key.txt\" target=\"_blank\">Chave PGP</a> (fingerprint
       <code>5995 C83C D754 BE44 8164 1929 0961 7FD3 7CC0 6B54</code>) também disponível em <a href=\"https://keybase.io/crystal/pgp_keys.asc\"
       target=\"_blank\">Keybase server</a>, e enviar para:
-
+  code:
+    title: Repositorio do Código
+    content_html: >
+      O repositorio oficial do Crystal está no Github, então qualquer bug que encontrar na linguagem, compilador ou biblioteca padrão pode ser reportado aqui - e
+      pull request são sempre bem vindos.
+  forum:
+    title: Forum
+    content_html: >
+      O Forum Crystal é o primeiro lugar para ir para qualquer discussão em geral. Sinta-se livre para fazer uma pergunta, compartilhar seu projeto com os outros,
+      perguntar por ajuda e boas práticas, oferecer ajuda contribuindo com o projeto, ou qualquer coisa relacionada ao Crystal.
+  blog:
+    title: Novas Versões, Casos de uso e mais
+    content_html: >
+      No blog oficial do Crystal você pode encontrar anúncios detalhados de novos lançamentos, alguns casos de uso interessantes, a lógica por trás de alguns dos
+      decisões de design e coisas que a equipe escreve em torno do código que eles costumam escrever.<br/><br/>Também aceitamos postagens de escritores convidados,
+      então se você tiver algo incrível que você construiu com Crystal, <a href=\"mailto:crystal@manas.tech\" title=\"Ou escolha qualquer outro canal listado
+      aqui\">entre em contato</a> e ficaremos felizes ter você em destaque no blog.
+  chat:
+    title: Salas de Conversa
+    content_html: >
+      A sala Gitter é a sala de bate-papo oficial para Crystal. Você pode deixar uma pergunta rápida aqui para tentar respondê-la rapidamente, pedir orientação ou
+      participar de uma breve discussão sobre um recurso ou projeto em que você está interessado. Certifique-se de manter a discussão organizada e considere usar a
+      lista de discussão se o bate-papo arrasta por muito tempo.
+  libera_chat:
+    content_html: >
+      Nosso canal de IRC em <a href=\"ircs://irc.libera.chat:6697#crystal-lang\">irc.libera.chat:6697#crystal-lang</a> é conectado à sala do Gitter, então qualquer
+      coisa enviada em uma plataforma é encaminhado para a outra. Os registros estão disponíveis em <a href=\"http://irclog.crystal-lang.org\">irclog.crystal-lang.org</a>.
+  discord:
+    content_html: >
+      O servidor Discord, ao contrário da sala Gitter e do canal IRC, não é oficial, mas se esforça para não ceder às alternativas oficiais. Existem muitos canais
+      para discutir qualquer tipo de assunto relacionado a Crystal.

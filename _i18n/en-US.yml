@@ -65,3 +65,35 @@ community:
       we keep track of them.<br /><br />You can encrypt your message <a href=\"https://keybase.io/encrypt\" target=\"_blank\">via Keybase</a>
       (set recipient <code>crystal</code>), or with our <a href=\"crystal-pgp-key.txt\" target=\"_blank\">PGP key</a> (fingerprint <code>5995 C83C D754 BE44
       8164 1929 0961 7FD3 7CC0 6B54</code>) also available on <a href=\"https://keybase.io/crystal/pgp_keys.asc\" target=\"_blank\">Keybase server</a>, and send it to:"
+  code:
+    title: Code Repository
+    content_html: >
+      The Crystal official code repository is on GitHub, so any bugs you find in either the language, compiler or standard library should be reported here - and
+      pull requests are always welcome.
+  forum:
+    title: Forum
+    content_html: >
+      The Crystal Forum is the first to-go place for any general discussion. Feel free to ask a question, share your project with others, ask for guidance and
+      best practices, offer your help contributing to a project, or anything else Crystal-related.
+  blog:
+    title: New Releases, Use Cases and more
+    content_html: >
+      In the official Crystal blog you can find the detailed announcements for new releases, some interesting use cases, the rationale behind some of the language's
+      design decisions and things the team write around the code they usually write.<br/><br/>We also accept posts from guest writers, so if you have something
+      awesome you have built with Crystal, <a href=\"mailto:crystal@manas.tech\" title=\"Or pick any other channel listed here\">contact us</a> and we'll be happy
+      to have you featured on the blog.
+  chat:
+    title: Chat Rooms
+    content_html: >
+      The Gitter room is the official chat room for Crystal. You can drop a quick question here to try and get it answered quickly, ask for guidance, or engage on a
+      short discussion on a feature or project you are interested in. Make sure to keep the discussion organised, and consider using the mailing list if the chat
+      drags for too long.
+  libera_chat:
+    content_html: >
+      Our IRC channel at <a href=\"ircs://irc.libera.chat:6697#crystal-lang\">irc.libera.chat:6697#crystal-lang</a> is bridged to the Gitter room, so anything sent
+      on one platform is forwarded to the other one. Logs are available at <a href=\"http://irclog.crystal-lang.org\">irclog.crystal-lang.org</a>.
+  discord:
+    content_html: >
+      The Discord server, unlike the Gitter room and the IRC channel, is unofficial, but strives not to yield to the official alternatives. There are many channels
+      to discuss any kinds of topics related to the language.
+
