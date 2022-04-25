@@ -3,7 +3,7 @@
   {%- assign proto = item.url | slice: 0, 8 -%}
   <li>
     <a href="{{ item.url }}"{% if item.url == page.url %} class="selected"{% endif %}{% if proto == "https://" %} target="_blank"{% endif %}>
-      {{ item.label }}
+      {% t site.header.{{ item.label }} %}
     </a>
   </li>
 {% endfor %}

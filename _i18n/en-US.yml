@@ -1,0 +1,67 @@
+global:
+  english: English
+  portuguese: Portuguese
+site:
+  title: The Crystal Programming Language
+  description: A language for humans and computers
+  install: Install
+  learn: Learn
+  try_online: Try Online
+  header:
+    Home: Home
+    Forum: Forum
+    Blog: Blog
+    Sponsors: Sponsors
+    Community: Community
+    Conference: Conference
+    Team: Team
+    Docs: Docs
+    GitHub: Github
+index:
+  fund_crystal: Fund Crystal and help it keep growing at
+  release:
+    latest_release: Latest release
+    notes: More release notes
+  syntax:
+    name: Syntax
+    description: >
+      Crystal’s syntax is heavily inspired by Ruby’s, so it feels natural to read and easy to write, and has the
+      added benefit of a lower learning curve for experienced Ruby devs.
+    link: Start learning Crystal with the Language Reference
+  type_system:
+    name: Type System
+    description: >
+      Crystal is statically type checked, so any type errors will be caught early by the compiler rather than fail on runtime.
+      Moreover, and to keep the language clean, Crystal has built-in type inference, so most type annotations are unneeded.
+    link: Read more about Crystal's type system
+  null_reference:
+    name: Null reference checks
+    description:
+      p: >
+        All types are non-nilable in Crystal, and nilable variables are represented as a union between the type and nil.
+        As a consequence, the compiler will automatically check for null references in compile time, helping prevent the dreadful billion-dollar mistake.
+      a: billion-dollar mistake
+    previous: Running the previous file
+  macros:
+    name: Macros
+    description: >
+      Crystal’s answer to metaprogramming is a powerful macro system, which ranges from basic templating and AST
+      inspection, to types inspection and running arbitrary external programs.
+    link: Read more about macros
+blog:
+  articles: Articles
+  more_articles: More articles
+  release_notes: Release Notes
+  more_release_notes: More release notes
+community:
+  name: Community
+  description: >
+    There are so many ways to get involved in Crystal. Here's a list of our main communication channels and resources.<br/> Check out our
+    <a href="/team">Team page</a> to meet the people.
+  security:
+    title: Security Issues
+    content_html: >
+      "Should you find any security-related issue, please <strong>do not share them openly</strong> in the issue tracker. We have a dedicated mailbox where
+      we keep track of them.<br /><br />You can encrypt your message <a href=\"https://keybase.io/encrypt\" target=\"_blank\">via Keybase</a>
+      (set recipient <code>crystal</code>), or with our <a href=\"crystal-pgp-key.txt\" target=\"_blank\">PGP key</a> (fingerprint <code>5995 C83C D754 BE44
+      8164 1929 0961 7FD3 7CC0 6B54</code>) also available on <a href=\"https://keybase.io/crystal/pgp_keys.asc\" target=\"_blank\">Keybase server</a>, and send it to:"

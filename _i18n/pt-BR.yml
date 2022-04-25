@@ -1,0 +1,70 @@
+global:
+  english: Inglês
+  portuguese: Português
+site:
+  title: A Linguagem de Programação Crystal
+  description: Uma linguagem para humanos e computadores
+  install: Instalar
+  learn: Aprender
+  try_online: Tentar Online
+  header:
+    Home: Home
+    Forum: Forum
+    Blog: Blog
+    Sponsors: Patrocinadores
+    Community: Comunidade
+    Conference: Conferência
+    Team: Time
+    Docs: Documentação
+    GitHub: Github
+index:
+  fund_crystal: Financie o Crystal e nos ajude a continuar crescendo
+  release:
+    latest_release: Última versão
+    notes: Mais informações da versão
+  syntax:
+    name: Sintaxe
+    description: >
+      A Syntax do Crystal é fortemente inspirada em Ruby, então é natural de ler e fácil de escrever, e também tem
+      o benefício de um curto aprendizado para programadores Ruby experientes.
+    link: Comece a aprender Crystal com a Referencia da Linguagem.
+  type_system:
+    name: Sistema de tipo
+    description: >
+      O Crystal é verificado estaticamente por tipo, portanto, quaisquer erros de tipo serão detectados antecipadamente pelo compilador,
+      em vez de falhar em tempo de execução. Além disso, e para manter a linguagem limpa, o Crystal possui inferência de tipo integrada,
+      portanto, a maioria das anotações de tipo são desnecessárias.
+    link: Saiba mais sobre o Sistema de tipo do Crystal
+  null_reference:
+    name: Referencia de checagem Null
+    description:
+      p: >
+        All types are non-nilable in Crystal, and nilable variables are represented as a union between the type and nil.
+        As a consequence, the compiler will automatically check for null references in compile time, helping prevent the dreadful billion-dollar mistake.
+      a: billion-dollar mistake
+    previous: Running the previous file
+  macros:
+    name: Macros
+    description: >
+      A resposta do Crystal para metaprogramação é um poderoso sistema de macro, que varia de modelagem básica e AST
+      inspeção, para inspeção de tipos e execução de programas externos arbitrários.
+    link: Saiba mais sobre macros
+blog:
+  articles: Artigos
+  more_articles: Mais Artigos
+  release_notes: Notas de Versão
+  more_release_notes: Mais Notas de Versão
+community:
+  name: Comunidade
+  description: >
+    Existem muitas formas de se envolver com Crystal. Aqui é uma lista com nossas principais canais de comunicação e recursos.<br/> Confira nossa
+    <a href="/team">página do Time</a> para conhece-los melhor.
+  security:
+    title: Problemas de Segurança
+    content_html: >
+      Se você encontrar algum problema relacionado à segurança, <strong>não os compartilhe abertamente</strong> no rastreador de problemas. Temos uma caixa
+      de correio dedicada onde nós os acompanhamos.<br/><br/>Você pode criptografar sua mensagem <a href=\"https://keybase.io/encrypt\" target=\"_blank\">via
+      Keybase</a> (definir destinatário <code>crystal</code>), ou com a nossa <a href=\"crystal-pgp-key.txt\" target=\"_blank\">Chave PGP</a> (fingerprint
+      <code>5995 C83C D754 BE44 8164 1929 0961 7FD3 7CC0 6B54</code>) também disponível em <a href=\"https://keybase.io/crystal/pgp_keys.asc\"
+      target=\"_blank\">Keybase server</a>, e enviar para:
+

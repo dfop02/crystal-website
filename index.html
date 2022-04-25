@@ -6,7 +6,7 @@ custom_body_classes:
 ---
 <div class="banner center sponsorship no-select">
   <div class="flag">
-    Fund Crystal and help it keep growing at
+    {% t index.fund_crystal %}
     <div class="flag-logos">
       <a href="https://opencollective.com/crystal-lang" target="_blank">
         <img src="/assets/oc.png" class="oc-logo">
@@ -19,8 +19,8 @@ custom_body_classes:
   <div class="row center">
     <div class="col s12">
       {% assign latest_release = site.releases | reverse | first %}
-      <h2 class="latest-release">Latest release <a href="{{ latest_release.url }}">{{ latest_release.version }}</a></h2>
-      <p>{{ latest_release.date | date: "%d %B %Y" }} - <a href="/blog#release_notes" class="gray-link">More release notes</a></p>
+      <h2 class="latest-release">{% t index.release.latest_release %} <a href="{{ latest_release.url }}">{{ latest_release.version }}</a></h2>
+      <p>{{ latest_release.date | date: "%d %B %Y" }} - <a href="/blog#release_notes" class="gray-link">{% t index.release.notes %}</a></p>
     </div>
   </div>
 
@@ -28,41 +28,34 @@ custom_body_classes:
 
   <div class="row">
     <div class="col s12">
-      <h2>Syntax</h2>
-      <p>Crystal’s syntax is heavily inspired by Ruby’s, so it feels natural to read and easy to write, and has the
-        added benefit of a lower learning curve for experienced Ruby devs.</p>
+      <h2>{% t index.syntax.name %}</h2>
+      <p>{% t index.syntax.description %}</p>
       <div class='code_section'>
         {% include sample_server.md %}
       </div>
-      <p class="read-more"><a href="https://crystal-lang.org/reference/getting_started/">Start learning Crystal with the Language
-          Reference</a></p>
+      <p class="read-more"><a href="https://crystal-lang.org/reference/getting_started/">{% t index.syntax.link %}</a></p>
     </div>
   </div>
 
   <div class="row">
     <div class="col s12">
-      <h2>Type system</h2>
-      <p>Crystal is statically type checked, so any type errors will be caught early by the compiler rather than fail on
-        runtime. Moreover, and to keep the language clean, Crystal has built-in type inference, so most type annotations
-        are unneeded.</p>
+      <h2>{% t index.type_system.name %}</h2>
+      <p>{% t index.type_system.description %}</p>
       <div class="code_section">
         {% include sample_type_system.md %}
       </div>
-      <p class="read-more"><a href="https://crystal-lang.org/reference/syntax_and_semantics/types_and_methods.html">Read more
-          about Crystal's type system</a></p>
+      <p class="read-more"><a href="https://crystal-lang.org/reference/syntax_and_semantics/types_and_methods.html">{% t index.type_system.link %}</a></p>
     </div>
   </div>
 
   <div class="row">
     <div class="col s12">
-      <h2>Null reference checks</h2>
-      <p>All types are non-nilable in Crystal, and nilable variables are represented as a union between the type and
-        nil. As a consequence, the compiler will automatically check for null references in compile time, helping
-        prevent the dreadful <a href="https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare" target="_blank">billion-dollar mistake</a>.</p>
+      <h2>{% t index.null_reference.name %}</h2>
+      <p>{% t index.null_reference.description.p %} <a href="https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare" target="_blank">{% t index.null_reference.description.a %}</a>.</p>
       <div class="code_section">
         {% include sample_null.md %}
       </div>
-      <p>Running the previous file:</p>
+      <p>{% t index.null_reference.previous %}:</p>
       <div class="code_section">
         <figure class="highlight console">
           {% include sample_null_refs.html %}
@@ -73,14 +66,12 @@ custom_body_classes:
 
   <div class="row">
     <div class="col s12">
-      <h2>Macros</h2>
-      <p>Crystal’s answer to metaprogramming is a powerful macro system, which ranges from basic templating and AST
-        inspection, to types inspection and running arbitrary external programs.</p>
+      <h2>{% t index.macros.name %}</h2>
+      <p>{% t index.macros.description %}</p>
       <div class="code_section">
         {% include sample_macros.md %}
       </div>
-      <p class="read-more"><a href="https://crystal-lang.org/reference/syntax_and_semantics/macros.html">Read more about
-          macros</a></p>
+      <p class="read-more"><a href="https://crystal-lang.org/reference/syntax_and_semantics/macros.html">{% t index.macros.link %}</a></p>
     </div>
   </div>
 

@@ -5,20 +5,20 @@ description: Here you can find detailed announcements for new releases, some int
 <div class="container">
   <div class="row">
     <div class="col s12">
-      <h2>Articles</h2>
+      <h2>{% t blog.articles %}</h2>
       {% assign articles = site.posts %}
       <div class='post-list'>
         {% for post in articles %}
-        {% include blog_row.html post=post %}
+          {% include blog_row.html post=post %}
         {% endfor %}
       </div>
-      <p><a href="javascript:void(0)" id="more-articles">More articles</a></p>
+      <p><a href="javascript:void(0)" id="more-articles">{% t blog.more_articles %}</a></p>
     </div>
   </div>
 
   <div class="row">
     <div class="col s12">
-      <h2 name="release_notes" id="release_notes">Release Notes</h2>
+      <h2 name="release_notes" id="release_notes">{% t blog.release_notes %}</h2>
       <table class="bordered no-underline">
         <tbody class="notes-list">
           {% assign releases = site.releases | reverse %}
@@ -32,7 +32,7 @@ description: Here you can find detailed announcements for new releases, some int
           {% endfor %}
         </tbody>
       </table>
-      <p><a href="javascript:void(0)" id="more-notes">More release notes</a></p>
+      <p><a href="javascript:void(0)" id="more-notes">{% t blog.more_release_notes %}</a></p>
     </div>
   </div>
 </div>

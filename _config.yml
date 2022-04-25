@@ -43,6 +43,12 @@ defaults:
       permalink: /:year/:month/:day/:title.html
       image: /assets/icon.png
 
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# Default lang is the first ("en-US")
+languages: ["en-US", "pt-BR"]
+
 twitter:
   username: CrystalLanguage
 
