@@ -1,8 +1,20 @@
 {% assign navigation_pages = site.data.nav.main %}
+
 {% for item in navigation_pages %}
   {%- assign proto = item.url | slice: 0, 8 -%}
+
+  {% capture locale_url %}
+    {% if proto == "https://" %}
+      {{ item.url }}
+    {% elsif site.lang == site.default_lang and site.default_locale_in_subfolder != true %}
+      {{ site.baseurl_root }}{{ item.url }}
+    {% else %}
+      {{ site.baseurl_root }}/{{ site.lang }}{{ item.url }}
+    {% endif %}
+  {% endcapture %}
+
   <li>
-    <a href="{{ item.url }}"{% if item.url == page.url %} class="selected"{% endif %}{% if proto == "https://" %} target="_blank"{% endif %}>
+    <a href="{{ locale_url }}"{% if item.url == page.url %} class="selected"{% endif %}{% if proto == "https://" %} target="_blank"{% endif %}>
       {% t site.header.{{ item.label }} %}
     </a>
   </li>

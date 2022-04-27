@@ -1,6 +1,6 @@
-global:
-  english: Inglês
-  portuguese: Português
+langs:
+  en-US: Inglês
+  pt-BR: Português
 site:
   title: A Linguagem de Programação Crystal
   description: Uma linguagem para humanos e computadores
@@ -14,9 +14,10 @@ site:
     Sponsors: Patrocinadores
     Community: Comunidade
     Conference: Conferência
-    Team: Time
+    Team: Equipe
     Docs: Documentação
     GitHub: Github
+    Langs: Idiomas
 index:
   fund_crystal: Financie o Crystal e nos ajude a continuar crescendo
   release:
@@ -98,3 +99,41 @@ community:
     content_html: >
       O servidor Discord, ao contrário da sala Gitter e do canal IRC, não é oficial, mas se esforça para não ceder às alternativas oficiais. Existem muitos canais
       para discutir qualquer tipo de assunto relacionado a Crystal.
+  ru_telegram:
+    content_html: Pequena mas unica comunidade para ajuda uns aos outros com Crystal. A principal lingua é o russo mas você pode perguntar algo em inglês também.
+  twitter:
+    title: Anuncios Gerais e Eventos
+    content_html: >
+      A conta do Twitter geralmente twitta anúncios gerais sobre lançamentos e eventos e retweeta quaisquer artigos interessantes do Twitter. Tenha certeza de
+      mencionar isso se você estiver twittando sobre Crystal!
+  reddit:
+    title: Compartilhe seu trabalho
+    content_html: >
+      O subreddit Crystal Programming contém anúncios sobre novos lançamentos, bibliotecas interessantes, postagens de blog e, em geral, é um bom lugar para
+      compartilhar seu trabalho com o resto da comunidade Crystal.
+  stackoverflow:
+    title: Peça por Ajuda
+    content_html: >
+      Claro, há uma tag crystal-lang no StackOverflow. Peça ajuda com seu projeto Crystal lá ou ajude outras pessoas a resolver o deles - aprendendo &amp;
+      compartilhando até o fim.
+  tools:
+    title: Crystal Shards, Ferramentas e Tutoriais
+    content_html: >
+      Seguindo a tradição das listas incríveis, o repositório do GitHub awesome-crystal contém uma lista com curadoria de fragmentos, ferramentas e tutoriais do
+      Crystal. Se você quer o seu contribuição para o Crystal ser listada aqui, bifurque o repositório, adicione-o à lista e envie um pull request.
+  shardbox:
+    content_html: Um banco de dados de Crystal Shards. Ele ajuda os desenvolvedores a descobrir shards e o ecossistema de shards.
+  shards:
+    content_html: Visualização de todos os repositórios no GitHub e GitLab que possuem código Crystal neles e identificar facilmente as dependências e as versões associadas.
+  crystalshards:
+    content_html: >
+      O serviço crystalshards.org fornece uma visualização sem curadoria de todos os repositórios no GitHub que contêm código Crystal. Com sua capacidade de
+      pesquisa, você pode encontre o fragmento ou aplicativo que você está procurando.
+  newsletter:
+    title: Notícias
+    content_html: >
+      Semanalmente Crystal resume todas as notícias da comunidade Crystal em um boletim informativo curto e focado. Você pode assiná-lo e até mesmo ver as
+      edições anteriores na web.
+languages:
+  contribute: Fique a vontade para contribuir com um novo idoma <a href="#">aqui</a>.
+  available_langs: Idiomas Disponíveis

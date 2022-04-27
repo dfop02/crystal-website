@@ -93,49 +93,63 @@ description: There are so many ways to get involved in Crystal. Here's a list of
           continues=true
 %}
 
+{% capture ru_telegram_content %}{% t community.ru_telegram.content_html %}{% endcapture %}
+
 {% include community_row.html
           title=""
-          content="Small but brave community to help each other with Crystal. Main language is russian but you may ask something in english too."
+          content=ru_telegram_content
           link_text="Crystal - Russian speaking community"
           url="https://t.me/crystal_ru"
           icon="telegram"
           custom_icon=true
 %}
 
+{% capture twitter_title %}{% t community.twitter.title %}{% endcapture %}
+{% capture twitter_content %}{% t community.twitter.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="General Announcements and Events"
+          title=twitter_title
           divId="twitter"
-          content="The Twitter account will often tweet general announcements on releases and events, and retweet any interesting articles from the tweetosphere. Be sure to mention it if you are tweeting about Crystal!"
+          content=twitter_content
           link_text="@CrystalLanguage"
           url="https://twitter.com/CrystalLanguage"
           icon="twitter"
           custom_icon=true
 %}
 
+{% capture reddit_title %}{% t community.reddit.title %}{% endcapture %}
+{% capture reddit_content %}{% t community.reddit.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="Share Your Work"
+          title=reddit_title
           divId="reddit"
-          content="The Crystal Programming subreddit contains announcements on new releases, interesting libraries, blog posts, and is in general a good place to share your work with the rest of the Crystal community."
+          content=reddit_content
           link_text="Crystal Programming"
           url="https://www.reddit.com/r/crystal_programming/"
           icon="reddit"
           custom_icon=true
 %}
 
+{% capture stackoverflow_title %}{% t community.stackoverflow.title %}{% endcapture %}
+{% capture stackoverflow_content %}{% t community.stackoverflow.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="Ask For Help"
+          title=stackoverflow_title
           divId="stackoverflow"
-          content="Of course, there is a crystal-lang tag in StackOverflow. Ask for help with your Crystal project there, or help other people solve theirs - learning &amp; sharing all the way through."
+          content=stackoverflow_content
           link_text="crystal-lang"
           url="https://stackoverflow.com/questions/tagged/crystal-lang?sort=newest"
           icon="stack_overflow"
           custom_icon=true
 %}
 
+{% capture tools_title %}{% t community.tools.title %}{% endcapture %}
+{% capture tools_content %}{% t community.tools.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="Crystal Shards, Tools and Tutorials"
+          title=tools_title
           divId="shards"
-          content="Following the awesome-lists tradition, the awesome-crystal GitHub repository contains a curated list of Crystal shards, tools and tutorials. If you want your contribution to Crystal to be listed here, fork the repository, add it to the list and send a pull request."
+          content=tools_content
           link_text="awesome-crystal"
           url="https://github.com/veelenga/awesome-crystal"
           icon="awesome"
@@ -143,37 +157,46 @@ description: There are so many ways to get involved in Crystal. Here's a list of
           custom_icon=true
 %}
 
+{% capture shardbox_content %}{% t community.shardbox.content_html %}{% endcapture %}
+
 {% include community_row.html
           title=""
           divId="shardbox"
-          content="A database of Crystal shards. It helps developers to discover shards and the Shards ecosystem."
+          content=shardbox_content
           link_text="Shardbox.org"
           url="https://shardbox.org/"
           continues=true
           icon="play_arrow"
 %}
 
+{% capture shards_content %}{% t community.shards.content_html %}{% endcapture %}
+
 {% include community_row.html
           title=""
-          content="View of all repositories on GitHub and GitLab that have Crystal code in them and easily identify the dependencies and the associated releases."
+          content=shards_content
           link_text="shards.info"
           url="https://shards.info/"
           continues=true
           icon="play_arrow"
 %}
 
+{% capture crystalshards_content %}{% t community.crystalshards.content_html %}{% endcapture %}
+
 {% include community_row.html
           title=""
-          content="The crystalshards.org service provides an uncurated view of all repositories on GitHub that have Crystal code in them.  With its search capability you can find the shard or application you're looking for."
+          content=crystalshards_content
           link_text="crystalshards.org"
           url="https://crystalshards.org"
           icon="play_arrow"
 %}
 
+{% capture newsletter_title %}{% t community.newsletter.title %}{% endcapture %}
+{% capture newsletter_content %}{% t community.newsletter.content_html %}{% endcapture %}
+
 {% include community_row.html
-          title="Newsletter"
+          title=newsletter_title
           divId="newsletter"
-          content="Crystal Weekly summarizes every news of the Crystal community in a short, focused newsletter. You can subscribe to it and even see the past issues on the web."
+          content=newsletter_content
           link_text="Crystal Weekly"
           url="http://www.crystalweekly.com/"
           icon="mail_outline"

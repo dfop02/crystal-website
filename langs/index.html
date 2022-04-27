@@ -1,0 +1,26 @@
+---
+title: Internationalization
+description: Language support for users learn more easly about Crystal.
+---
+
+<div class="container">
+  <section class="row">
+    <p>
+      {% t languages.contribute %}
+    </p>
+  </section>
+
+  <section class="row">
+    <h2 id="core">{% t languages.available_langs %}</h2>
+
+    <div class="team-members team-members--core">
+      {% for lang in site.languages %}
+        {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
+          <a href="{{ site.baseurl_root }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
+        {% else %}
+          <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
